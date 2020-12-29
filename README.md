@@ -3,7 +3,7 @@ Steps for Zip file
 
 
 # Option 1
-> zip -e -P india iit.zip /home/bsetec/package.json
+> zip -e -P india iit.zip /home/package.json
 
 
 # Option 2
@@ -19,7 +19,7 @@ Steps for Zip file
 
 import pyminizip
 compression_level = 5  # we can set compression level upto 1-9
-pyminizip.compress("/home/bsetec/package.json","/home/bsetec","/home/bsetec/Desktop/dst.zip", "password", compression_level)
+pyminizip.compress("/home/package.json","/home/bsetec","/home/Desktop/dst.zip", "password", compression_level)
 
 
 
